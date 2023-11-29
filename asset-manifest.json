@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9bd30f5c.css",
+    "main.js": "/Portfolio/static/js/main.70d52c5c.js",
+    "static/media/blog.png": "/Portfolio/static/media/blog.81ec973e2bca508b9e08.png",
+    "static/media/budget.png": "/Portfolio/static/media/budget.daf0584c0c696e9719c6.png",
+    "static/media/applevisionpro.png": "/Portfolio/static/media/applevisionpro.e4b8cc40031802d8c93b.png",
+    "static/media/shoe_store.png": "/Portfolio/static/media/shoe_store.1a7cbf9d41cc88ff93c0.png",
+    "static/media/message.gif": "/Portfolio/static/media/message.62de22f168a610be5e6b.gif",
+    "static/media/news.jpg": "/Portfolio/static/media/news.c5d24ce841c57b3ce860.jpg",
+    "static/media/boy.png": "/Portfolio/static/media/boy.4db2834630949adc11ba.png",
+    "static/media/boy-chart.png": "/Portfolio/static/media/boy-chart.2412c6c06e74fea2b589.png",
+    "static/media/boy-guitar.png": "/Portfolio/static/media/boy-guitar.1f1cad433407eeaf8da8.png",
+    "static/media/git.png": "/Portfolio/static/media/git.a7f191d9ab459373c9e6.png",
+    "static/media/mongodp.png": "/Portfolio/static/media/mongodp.570447f4c8f4532031b9.png",
+    "static/media/react.png": "/Portfolio/static/media/react.2615ebf3e4206ea42d7b.png",
+    "static/media/crown.png": "/Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "index.html": "/Portfolio/index.html",
+    "main.9bd30f5c.css.map": "/Portfolio/static/css/main.9bd30f5c.css.map",
+    "main.70d52c5c.js.map": "/Portfolio/static/js/main.70d52c5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bd30f5c.css",
+    "static/js/main.70d52c5c.js"
+  ]
+}

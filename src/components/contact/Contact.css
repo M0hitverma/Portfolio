@@ -1,0 +1,74 @@
+.contact-form{
+    display: flex;
+    padding: 3rem ;
+    width:100vw;
+    flex-direction:row;
+    height:70vh;
+   position: relative;
+    background-color: var(--lightpurple);
+}
+.c-left{
+    
+    display:flex;
+    position: relative;
+    flex:1;
+    flex-direction:column;
+    justify-content: top;
+    
+}
+.awesome{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+.awesome>span{
+    font-size: 3rem;
+    color:var(--black);
+    font-weight: bold;
+    opacity: 0.8;;
+}
+.c-right{
+    display: flex;
+    flex:1;
+    position: relative;
+    justify-content: center;
+  
+}
+.c-right > form{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: center;
+    padding-top:2rem;
+}
+.c-right .user{
+  width: 15rem;
+  height: 3rem;
+  padding: 0.4rem;
+  outline: none;
+  border-bottom: 6px solid rgb(255,208,77);
+  border-radius: 8px;
+  font-size: 16px;
+
+
+}
+textarea {
+    height: 4rem!important;
+}
+@media  screen and (max-width:660px) {
+    .contact-form{
+        flex-direction: column;
+        height: 110vh;
+        padding-top:3rem;
+    
+    }
+   
+    
+    .awesome>span{
+        font-size:2rem;
+    }
+   
+    
+}

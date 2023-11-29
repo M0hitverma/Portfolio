@@ -1,0 +1,148 @@
+.intro{
+    display: flex;
+    width: 100vw;
+    height:77vh;
+    flex-direction: row;
+    justify-content: space-between
+    
+}
+.i-left{
+     padding-top:7rem;
+  
+    padding-left:5rem;
+    display: flex;
+    position: relative;
+    flex:1;
+    flex-direction: column;
+
+}
+.i-right{
+    padding: 3rem 0 1rem 0;
+    flex:1;
+    position: relative;
+    
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap:0.1rem;
+}
+.name>:nth-child(1){
+    color:var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0.8;
+    
+}
+.name>:nth-child(2){
+    color:var(--lightpurple);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Unbounded';
+
+}
+.name>:nth-child(3){
+  
+    font-size:15px;
+    font-weight: 100;
+    color: var(--gray);
+  
+
+}
+.i-left>button{
+ 
+    border-radius: 10px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: var(--lightpurple);
+    color:white;
+    border-width: 0;
+    opacity: 0.9;
+    font-family: 'Poppins', sans-serif;
+    width:fit-content;
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+
+.i-left>button:hover{
+    opacity: 0.8;
+    
+}
+.i-icon{
+    display: flex;
+    gap:2rem; 
+    margin-top:3rem;
+   
+}
+.i-icon>i{
+   color:var(--black);
+   cursor: pointer;
+   transition: 1s;
+   opacity: 0.9;
+}
+.i-icon>i:hover{
+    color:var(--lightpurple);
+    transform: scale(1.2);
+}
+.i-right>*{
+    position:absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    right:55%;
+    transform:scale(0.9);
+}
+
+@media  screen and (max-width:750px) {
+
+   .i-left{
+    padding-left:3rem;
+    
+   }
+   
+
+    
+}
+@media screen and (max-width:660px){
+
+    .positionmng{
+        margin:auto
+    }
+    .intro{
+        flex-direction: column;
+        height:100vh;
+    }
+    .name>span{
+        text-align: center;
+    }
+   
+   .boy{
+      margin:auto;
+     height:300px;
+     margin-top:-15rem;
+   }
+   button{
+        margin: auto;
+
+   }
+   .i-left{
+    padding-top:2rem;
+    padding-left:0;
+    flex:0.5;
+
+   }
+   .i-icon{
+    margin: auto;
+   }
+
+   .i-right{
+    flex:0.5;
+    padding-top:1rem;
+    top:0;
+   }
+   .btn{
+    margin:auto;
+   }
+}

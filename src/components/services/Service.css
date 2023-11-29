@@ -1,0 +1,153 @@
+.achievement{
+    display: flex;
+    height: 100vh;
+     padding-bottom:3rem;
+    padding-top:5rem;
+     width: 100vw;
+     
+}
+.a-left{
+    
+    padding-left:5%;
+    display:flex;
+    flex : 1;
+    flex-direction: column;
+    position:relative;
+    gap:1rem;
+}
+.a-left>:nth-child(1){
+    font-size: 2rem;
+    color:var(--lightpurple);
+    font-family: 'Unbounded';
+    font-weight: bold;
+}
+.a-left>:nth-child(2){
+    position: relative;
+    font-size:15px;
+    font-weight: 100;
+    color: var(--gray);
+   
+    
+}
+.button{
+ 
+    border-radius: 10px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: var(--black);
+    color:white;
+    border-width: 0;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    width:fit-content;
+    font-weight: 300;
+    margin-top: 10px;
+
+     
+}
+.button:hover{
+    opacity: 1;
+    
+}
+.a-right{
+    display: flex;
+    position: relative;
+    flex:2;
+
+}
+
+.a-right >*{
+
+  position:absolute;
+
+}
+.a-right>*:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media  screen and (max-width:660px) {
+
+    .achievement{
+     flex-direction: column;
+     height:220vh !important;
+    }
+    .a-left>span{
+       text-align: center;
+       padding:0 2rem 0 2rem;
+    }
+   
+   .a-left>:nth-child(1){
+    font-size:1.5rem;
+   }
+   .heading{
+    font-size: 0.5rem;
+   }
+  .a-right{
+
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+     gap:2rem;
+     width:auto; 
+
+   }
+   .a-right>*{
+    position:static;
+    margin:auto;
+   }
+   
+}
+@media  screen and (max-width:1050px) {
+.achievement{
+    flex-direction: column;
+  height:130vh;
+}
+#four{
+    right: 3rem !important;
+}
+#one{
+    right:16rem !important;
+}
+#two{
+    right:31rem !important;
+}
+#three{
+    right:18rem !important;
+}
+    
+.a-left>span{
+    margin:auto;
+}
+.a-left>:nth-child(2){
+    width:70%;
+}
+.a-left>a{
+    margin: auto;
+
+}
+.a-left{
+    flex:0;
+}
+.a-right{
+    flex:0;
+    padding-top:3rem;
+}
+}
+
+@media screen and (max-width:862px){
+    
+    #four{
+        right: 1rem !important;
+    }
+    #one{
+        right:13rem !important;
+    }
+    #two{
+        right:26rem !important;
+    }
+    #three{
+        right:14rem !important;
+    }
+
+}

@@ -5,7 +5,7 @@ import gfg from '../../img/gfg.png'
 import linkedin from '../../img/linkedin.png'
 import git from '../../img/git.png'
 import Card from '../Card/Card'
-import resume from '../../img/boy-chart.png'
+import resume from '../../img/MohitVerma(Resume).pdf'
 
 import { themeContext } from '../../context'
 import { useContext } from 'react'
